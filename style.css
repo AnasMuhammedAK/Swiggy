@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.condainer-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.condainer-1 .left-side{
+    width: 55%;
+    padding:0px 19%;
+    background-color: white;
+}
+.condainer-1 .left-side .nav{
+    padding-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.buttens{
+    display: flex;
+   
+    padding-left: 243px;
+}
+.login .btn{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+.sign-up .btn{
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    width: 110px;
+    height: 40px;
+    margin-top: -7px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.condainer-1 .left-side .nav img{
+    width: 189px;
+    height: 55px;
+}
+.quat{
+    padding-top: 60px;
+    
+    
+}
+.quat .heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.quat .para{
+    padding-left: 15px;
+    font-size: 23px;
+    padding-top: 12px;
+    width: 485px;
+    color: gray;
+    
+}
+.search-section{
+    display: flex;
+    align-items: center;
+    width: 470px;
+    height: 60px;
+    border: 1px solid rgb(201, 200, 200);
+    margin-top: 40px;
+}
+.search {
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search-box input{
+    font-size: 17px;
+    font-weight: 500;
+    width: 250px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+.locate-me{
+    display: flex;
+    align-items: center;
+    padding-left: 114px;
+    width: 218px;
+}
+.locate-me i{
+    opacity: calc(.3);
+    padding-left: 10px;
+}
+.locate-me button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(77, 74, 74);
+    padding-left: 4px;
+}
+.find-food {
+    width: 135px;
+    height: 60px;
+    
+}
+.find-food button{
+    cursor: pointer;
+    width: 135px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #fc8019;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.condainer-1 .bottom{
+    margin-top: 35px;
+    width: 100%;
+    
+}
+.condainer-1 .bottom .heading{
+color: grey;
+
+}
+.condainer-1 .bottom .locations{
+    width: 540px;
+    margin-top: 10px;
+    color: rgb(83, 81, 81);
+}
+.condainer-1 .right-side{
+    width: 45%;
+}
+.condainer-1 .right-side img{
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    
+}
+.container-2{
+    position: absolute;
+    top: 540px;
+    width: 100%;
+    height: 400px;
+   background-color: #2b1e16;
+  
+    
+}
+.container-2 .content{
+    margin-top: -65px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22%;
+}
+.container-2 img{
+    width: 110px;
+    height: 199px;
+}
+.container-2 .content .heading{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.container-2 .content .para{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: calc(.5);
+}
+.image-3{
+    margin-right: -115px;
+}
+.img-3,.img-2,.img-1{
+    margin: 20px;
+}
+.para{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.container-3{
+    position: absolute;
+    top: 940px;
+    width: 100%;
+    height: 570px;
+   background-color: white;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-3 .left-side{
+    width: 50%;
+    height: 100%;
+    padding: 0px 20%;
+    
+
+}
+.container-3 .left-side .content{
+    padding-top: 160px;
+}
+.container-3 .left-side .content .heading{
+    font-size: 35px;
+    font-weight: 900;
+    width: 244px;
+    margin-left: -25px;
+}
+.container-3 .left-side .content .para{
+    font-size: 18px;
+    color: grey;
+    width: 350px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+.container-3 .left-side .logo{
+    display: flex;
+    
+}
+.container-3 .left-side .logo-1{
+    margin-top: 55px;
+    margin-left: -28px;
+}
+.container-3 .left-side .logo-2{
+    margin-top: 37px;
+    margin-left: -45px;
+}
+.container-3 .left-side .logo .logo-1 img{
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+    
+}
+.container-3 .left-side .logo .logo-2 img{
+    width: 308px;
+    height: 110px;
+    cursor: pointer;
+    
+}
+.container-3 .right-side{
+    width: 50%;
+    height: 100%;
+    
+}
+.images-2{
+    display: flex;
+    
+}
+.container-3 .right-side .img-1{
+    width: 384px;
+    height: 489px;
+    margin: 0;
+    margin-bottom: 94px;
+    margin-left: -70px
+}
+.container-3 .right-side .img-2{
+    width: 384px;
+    height: 489px;
+    padding-top: 83px;
+    margin: 0;
+    margin-left: -30px;
+}
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: black;
+    position: absolute;
+    top: 1429px;
+
+
+}
+.footer .upper{
+    display: flex;
+    width: 80%;
+    margin-left: 380px;
+    margin-top: 75px;
+    
+}
+.footer .upper p{
+    color: grey;
+    font-weight: bold;
+}
+.footer .upper li{
+    color: white;
+    list-style: none;
+}
+.footer .upper .company{
+    width: 200px;
+}
+.footer .upper .contact{
+    margin-left: 102px;
+    width: 109px;
+}
+.footer .upper .legal{
+    margin-left: 235px;
+}
+
+.footer .upper .logo .img-1{
+    width: 300px;
+    height: 115px;
+    margin-top: -35px;
+    margin-left: 120px;
+    cursor: pointer;
+    
+}
+.footer .upper .logo .img-2{
+    width: 180px;
+    height: 75px;
+    margin-top: -25px;
+    margin-left: 180px;
+    cursor: pointer;
+    
+}
+.line{
+    background-color: #4b4948;
+    width: 63%;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 370px;
+}
+.footer .lower{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .lower .text{
+    color: white;
+}
+.footer .lower .logo{
+    margin-left: 372px;
+}
+.footer .lower .logo img{
+    width: 142px;
+    height: 42px;
+    cursor: pointer;
+}
+.footer .lower .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 310px;
+}
+.footer .lower .links img{
+    margin-right: 20px;
+    cursor: pointer;
+}
